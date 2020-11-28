@@ -51,7 +51,6 @@ native_tests := \
     installd_otapreopt_test \
     installd_service_test \
     installd_utils_test \
-    keystore2_test \
     libandroidfw_tests \
     libappfuse_test \
     libbase_test \
@@ -64,7 +63,6 @@ native_tests := \
     libjavacore-unit-tests \
     liblog-unit-tests \
     libminijail_unittest_gtest \
-    libnativehelper_tests \
     libnetdbpf_test \
     libprocinfo_test \
     libtextclassifier_tests \
@@ -119,7 +117,6 @@ native_tests := \
     statsd_test \
     syscall_filter_unittest_gtest \
     time-unit-tests \
-    unicode-xid_device_test_src_lib \
     update_engine_unittests \
     vintf_object_test \
     wificond_unit_test \

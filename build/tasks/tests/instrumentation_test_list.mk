@@ -17,7 +17,6 @@ instrumentation_tests := \
     BluetoothInstrumentationTests \
     crashcollector \
     LongevityPlatformLibTests \
-    ManagedProvisioningTests \
     FrameworksCoreTests \
     FrameworksMockingCoreTests \
     BinderProxyCountingTestApp \

@@ -13,30 +13,4 @@
 // limitations under the License.
 
 // Build the common utility library for use device-side
-java_library_static {
-    name: "compatibility-common-util-devicesidelib",
-    sdk_version: "current",
 
-    srcs: ["src/**/*.java"],
-
-    static_libs: [
-        "guava",
-        "junit",
-    ],
-}
-
-java_library {
-    name: "compatibility-common-util-lib",
-    visibility: [
-        "//test/suite_harness/common/util",
-    ],
-    srcs: ["src/**/*.java"],
-    host_supported: true,
-    libs: [
-        "junit",
-        "guava",
-        "json-prebuilt",
-        "platform-test-annotations",
-        "kxml2-2.3.0",
-    ],
-}

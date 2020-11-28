@@ -23,18 +23,3 @@ java_library_host {
     ],
 }
 
-java_test_host {
-    name: "aoa-helper-test",
-    srcs: ["tests/src/**/*.java"],
-    test_options: {
-        unit_test: true,
-    },
-    static_libs: [
-        "aoa-helper",
-        "guava",
-        "junit",
-        "mockito-host",
-        "objenesis-host",
-    ],
-    test_suites: ["general-tests"],
-}
